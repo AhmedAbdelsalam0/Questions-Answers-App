@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Ques">
+
+
+        <item>1.What are Design Patterns?</item>
+        <item>2.What is Gang of Four (GOF)?</item>
+        <item>3.Name types of Design Patterns?</item>
+        <item>4.What are J2EE Patterns?</item>
+        <item>5.What is Factory pattern?</item>
+        <item>6.What is Abstract Factory pattern?</item>
+        <item>7.What is Singleton pattern?</item>
+        <item>8.How can you create Singleton class in java?</item>
+        <item>9.What are the difference between a static class and a singleton class?</item>
+        <item>10.Can we create a clone of a singleton object?</item>
+        <item>11.How to prevent cloning of a singleton object?</item>
+        <item>12.What is the benefit of Factory pattern?</item>
+        <item>13.What is Builder pattern?</item>
+        <item>14.What is Prototype pattern?</item>
+        <item>15.When Prototype pattern is to be used?</item>
+
+
+
+    </string-array>
+
+
+
+
+
+</resources>

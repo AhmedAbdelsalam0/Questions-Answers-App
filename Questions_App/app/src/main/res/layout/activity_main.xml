@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg_app">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startWelcome"
+        android:textColor="#FFF"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:layout_margin="30dp" />
+
+    <Button
+        android:id="@+id/btnQuestions"
+        android:layout_width="@dimen/btnWidth"
+        android:layout_height="@dimen/btnHeight"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="271dp"
+        android:background="@drawable/btn_pressed3"
+        android:inputType="text"
+        android:text="@string/btnQuestions"
+        android:textColor="@color/btnColor"
+        android:textSize="@dimen/btnTextSize"
+
+        />
+
+    <Button
+        android:id="@+id/btnRate"
+        android:layout_width="@dimen/btnWidth"
+        android:layout_height="@dimen/btnHeight"
+        android:layout_below="@id/btnQuestions"
+        android:layout_alignStart="@id/btnQuestions"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_pressed3"
+        android:inputType="text"
+        android:text="@string/btnRate"
+        android:textColor="@color/btnColor"
+        android:textSize="@dimen/btnTextSize"
+
+        />
+
+
+</RelativeLayout>
+

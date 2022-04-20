@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Ans">
+
+
+        <item>1.Design patterns represent the best practices used by experienced object-oriented software developers. Design patterns are solutions to general problems that software developers faced during software development. These solutions were obtained by trial and error by numerous software developers over quite a substantial period of time.</item>
+
+        <item>2.In 1994, four authors Erich Gamma, Richard Helm, Ralph Johnson and John Vlissides published a book titled Design Patterns - Elements of Reusable Object-Oriented Software which initiated the concept of Design Pattern in Software development. These authors are collectively known as Gang of Four (GOF).</item>
+
+
+        <item>3.Design patterns can be classified in three categories: Creational, Structural and Behavioral patterns.
+
+Creational Patterns - These design patterns provide a way to create objects while hiding the creation logic, rather than instantiating objects directly using new opreator. This gives program more flexibility in deciding which objects need to be created for a given use case.
+
+Structural Patterns - These design patterns concern class and object composition. Concept of inheritance is used to compose interfaces and define ways to compose objects to obtain new functionalities.
+
+Behavioral Patterns - These design patterns are specifically concerned with communication between objects.</item>
+        <item>4.These design patterns are specifically concerned with the presentation tier. These patterns are identified by Sun Java Center.</item>
+
+        <item>5.Factory pattern is one of most used design pattern in Java. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
+
+In Factory pattern, we create object without exposing the creation logic to the client and refer to newly created object using a common interface.</item>
+        <item>6.Abstract Factory patterns work around a super-factory which creates other factories. This factory is also called as factory of factories. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
+
+In Abstract Factory pattern an interface is responsible for creating a factory of related objects without explicitly specifying their classes. Each generated factory can give the objects as per the Factory pattern.</item>
+        <item>7.Singleton pattern is one of the simplest design patterns in Java. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
+
+This pattern involves a single class which is responsible to create an object while making sure that only single object gets created. This class provides a way to access its only object which can be accessed directly without need to instantiate the object of the class.</item>
+        <item>8.It is two step process. First, make the constructor private so that new operator cannot be used to instantiate the class. Return an object of the object if not null otherwise create the object and return the same via a method.</item>
+        <item>9.Following are the differences between a static class and a singleton class.
+
+A static class can not be a top level class and can not implement interfaces where a singleton class can.
+
+All members of a static class are static but for a Singleton class it is not a requirement.
+
+A static class get initialized when it is loaded so it can not be lazily loaded where a singleton class can be lazily loaded.
+
+A static class object is stored in stack whereas singlton class object is stored in heap memory space.</item>
+
+        <item>10.Yes.</item>
+        <item>11.Throw exception within the body of clone() method.
+
+Name some of the design patterns which are used in JDK library.
+Following are some of the design patterns which are used in JDK library.
+
+Decorator patttern is used by Wrapper classes.
+
+Singleton pattern is used by Runtime, Calendar classes.
+
+Factory pattern is used by Wrapper class like Integer.valueOf.
+
+Observer pattern is used by event handling frameworks like swing, awt.</item>
+
+        <item>12.Factory pattern encapsulates the implementation details and underlying implementation can be changed without any impact on caller api.</item>
+        <item>13.Builder pattern builds a complex object using simple objects and using a step by step approach. This builder is independent of other objects.</item>
+        <item>14.Prototype pattern refers to creating duplicate object while keeping performance in mind. This pattern involves implementing a prototype interface which tells to create a clone of the current object.</item>
+        <item>15.This pattern is used when creation of object directly is costly. For example, an object is to be created after a costly database operation. We can cache the object, returns its clone on next request and update the database as and when needed thus reducing database calls.</item>
+
+
+
+    </string-array>
+
+
+
+</resources>

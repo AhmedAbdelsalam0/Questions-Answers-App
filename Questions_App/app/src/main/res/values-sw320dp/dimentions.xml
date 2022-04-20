@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nick_layout" type="layout">@layout/activity_main</item>
+    <item name="nick_second" type="layout">@layout/activity_second</item>
+
+    <dimen name="btnWidth">150dp</dimen>
+    <dimen name="btnHeight">40dp</dimen>
+    <dimen name="btnTextSize">25sp</dimen>
+
+
+
+    <dimen name="tvXY">8sp</dimen>
+
+    <dimen name="btnVoiceWidth">22dp</dimen>
+    <dimen name="btnVoiceHeight">10dp</dimen>
+    <dimen name="btnVoiceMargin">3dp</dimen>
+
+    <dimen name="tvQuestionSize">10sp</dimen>
+    <dimen name="tvQuestionMargin">5dp</dimen>
+
+    <dimen name="tvQuestionAnsSize">10sp</dimen>
+
+    <dimen name="btnPreviousWidth">30dp</dimen>
+    <dimen name="btnPreviousHeight">30dp</dimen>
+
+    <dimen name="btnAnswerWidth">30dp</dimen>
+    <dimen name="btnAnswerHeight">30dp</dimen>
+
+    <dimen name="btnNextWidth">30dp</dimen>
+    <dimen name="btnNextHeight">30dp</dimen>
+
+</resources>
